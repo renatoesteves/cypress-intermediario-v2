@@ -5,7 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "test": "cypress run",
-    "test:cloud":"cloud"
+    "test:cloud" :"cypress run --record"
   },
   "repository": {
     "type": "git",
