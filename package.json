@@ -5,7 +5,8 @@
   "main": "cypress.config.js",
   "scripts": {
     "test": "cypress run",
-    "test:cloud" :"cypress run --record"
+    "test:cloud" :"cypress run --record",
+    "test-headless" :"npx cypress run --headless"
   },
   "repository": {
     "type": "git",
