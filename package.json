@@ -6,7 +6,6 @@
   "scripts": {
     "test": "cypress run",
     "test:cloud" :"cypress run --record",
-    "test:git" :"start-server-and-test dev http://localhost:3000 cypress run"
   },
   "repository": {
     "type": "git",
